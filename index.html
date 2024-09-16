@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/jquery-min.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="popup">
+        <i class="fas fa-times" id="close"></i> 
+        <p id="mssg">YOU WIN!</p>
+    </div>
+    <div class="row">
+        <div class="tab" id="one">
+            <div class="title">PLAYER</div>
+            <div class="choice">
+                <div class="box" id="rock">
+                    <i class="fas fa-hand-rock icon_box"></i>
+                    <div class="label">Rock</div>
+                </div>
+                <div class="box" id="paper">
+                    <i class="fas fa-hand-paper icon_box" ></i> 
+                    <div class="label">Paper</div>
+                </div>
+                <div class="box" id="scissor">
+                    <i class="fas fa-hand-scissors icon_box" ></i>
+                    <div class="label">Scissor</div>
+                </div>
+
+                
+            </div>
+            <div class="bottom">
+                <p class="mssg" id="player_mssg">YOU WIN!</p>
+                <p class="score">Score</p>
+                <p class="Ppoints">0</p>
+           
+            </div>
+            
+            
+        </div>
+        <div class="tab" id="two">
+            <div class="title">COMPUTER</div>
+            <div class="choice">
+                <div class="box2" id="bot_rock">
+                    <i class="fas fa-hand-rock icon_box"></i>
+                    <div class="label">Rock</div>
+                </div>
+                <div class="box2" id="bot_paper">
+                    <i class="fas fa-hand-paper icon_box" ></i> 
+                    <div class="label">Paper</div>
+                </div>
+                <div class="box2" id="bot_scissor">
+                    <i class="fas fa-hand-scissors icon_box" ></i>
+                    <div class="label">Scissor</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <p class="mssg" id="bot_mssg">YOU WIN!</p>
+                <p class="score">Score</p>
+                <p class="Bpoints">0</p>
+            </div>
+        </div>  
+    </div>
+</body>
+<script src="js/logic.js"></script>
+</html>
